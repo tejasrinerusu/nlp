@@ -32,7 +32,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-genai.configure(api_key="AIzaSyBsq5Kd5nJgx2fejR77NT8v5Lk3PK4gbH8")  
+genai.configure(api_key="AIzaSyBVsX7W2GCfUI8A4Fv9rt0Ofq7aZ9oNJvc")  
 gemini = genai.GenerativeModel('gemini-1.5-flash')
 
 embedder = SentenceTransformer('all-MiniLM-L6-v2') 
