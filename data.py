@@ -59,7 +59,7 @@ def load_data():
 df, faiss_index = load_data()
 
 st.markdown('<h1 class="chat-font">🤖 Teja Sri Clone Chatbot</h1>', unsafe_allow_html=True)
-st.markdown('<h3 class="chat-font">Ask me anything, and I\'ll respond as Nirmal Gaud!</h3>', unsafe_allow_html=True)
+st.markdown('<h3 class="chat-font">Ask me anything, and I\'ll respond as Tejasri!</h3>', unsafe_allow_html=True)
 st.markdown("---")
 
 def find_closest_question(query, faiss_index, df):
